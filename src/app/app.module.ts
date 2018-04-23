@@ -5,12 +5,15 @@ import {AppComponent} from './app.component';
 import {NavbarComponent} from './navbar/navbar.component';
 import {HttpModule} from '@angular/http';
 import {FormsModule} from '@angular/forms';
+import { GalleryComponent } from './Gallery/gallery.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
