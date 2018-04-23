@@ -1,4 +1,5 @@
-import {Component} from '@angular/core';
+import {Component, OnChanges} from '@angular/core'; 
+import { ImageService } from '../shared/image.service';
 
 
 @Component({
@@ -8,4 +9,8 @@ import {Component} from '@angular/core';
 })      
 export class GalleryComponent {
     title = 'Recent Work';
+    visibleImages: any [] = [];
+    constructor(private imageService:ImageService){
+        this.visibleImages = this.imageService.getImages();
+    }
 }
