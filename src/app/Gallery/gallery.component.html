@@ -1,12 +1,12 @@
 <h2>{{title}}</h2>
 <div class="row">
-    <button class="btn btn-lg btn-info" [class.active]= "filterBy=='all'" (click)="filterBy='all'">All</button>
-    <button class="btn btn-lg btn-info" [class.active]= "filterBy=='portraits'" (click)="filterBy='portraits'">Portraits</button>
-    <button class="btn btn-lg btn-info" [class.active]= "filterBy=='Drawings'" (click)="filterBy='Drawings'">Drawings</button>
-    <button class="btn btn-lg btn-info" [class.active]= "filterBy=='Paintings'" (click)="filterBy='Paintings'">Paintings</button>
+    <button class="btn btn-lg btn-info" [class.active]= "filterBy==='all'" (click)="filterBy='all'">All</button>
+    <button class="btn btn-lg btn-info" [class.active]= "filterBy==='portraits'" (click)="filterBy='portraits'">Portraits</button>
+    <button class="btn btn-lg btn-info" [class.active]= "filterBy==='Drawings'" (click)="filterBy='drawings'">Drawings</button>
+    <button class="btn btn-lg btn-info" [class.active]= "filterBy==='Paintings'" (click)="filterBy='paintings'">Paintings</button>
 
     <ul id= "thumbnailsList">
-        <li *ngFor="let image of visibleImages">
+        <li *ngFor="let image of (visibleImages | imageFilter:filterBy)">
             <img src="{{image.url}}" class="tn" width="200" height="160">
         </li>
     </ul>
