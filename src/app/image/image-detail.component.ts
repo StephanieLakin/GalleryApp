@@ -11,6 +11,7 @@ import { ImageService } from '../shared/image.service';
 export class ImageDetailComponent {
 
     image:any
+    
     constructor(private imageService:ImageService){}
    
 }
