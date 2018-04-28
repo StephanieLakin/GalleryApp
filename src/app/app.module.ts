@@ -3,10 +3,11 @@ import {NgModule} from '@angular/core';
 import {AlertModule} from 'ng2-bootstrap';
 import {HttpModule} from '@angular/http';
 import {FormsModule} from '@angular/forms';
-import { ImageService } from '../app/shared/image.service';
+import {ImageService } from '../app/shared/image.service';
 import {AppComponent} from './app.component';
 import {NavbarComponent} from './navbar/navbar.component';
 import {GalleryComponent} from './Gallery/gallery.component';
+import {ImageDetailComponent} from './image/image-detail.component';
 
 
 
@@ -14,17 +15,20 @@ import {GalleryComponent} from './Gallery/gallery.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    GalleryComponent
+    GalleryComponent,
+    
+    ImageDetailComponent   
+
   ],
   imports: [
     BrowserModule,
     HttpModule,
-    FormsModule,
-    ImageService,
-    AlertModule.forRoot()
+    FormsModule, 
    
   ],
-  providers: [],
+  providers: [ImageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+      
+

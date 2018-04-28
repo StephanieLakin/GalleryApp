@@ -10,6 +10,7 @@ import { ImageService } from '../shared/image.service';
 export class GalleryComponent {
     title = 'Recent Work';
     visibleImages: any [] = [];
+    
     constructor(private imageService:ImageService){
         this.visibleImages = this.imageService.getImages();
     }
