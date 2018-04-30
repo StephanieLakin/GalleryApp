@@ -8,7 +8,10 @@ import {AppComponent} from './app.component';
 import {NavbarComponent} from './navbar/navbar.component';
 import {GalleryComponent} from './Gallery/gallery.component';
 import {ImageDetailComponent} from './image/image-detail.component';
-import {ImageFilterPipe} from './shared/filter.pipe'
+import {ImageFilterPipe} from './shared/filter.pipe';
+import {appRoutes} from '../routes';
+import { RouterModule } from '@angular/router';
+
 
 
 
@@ -18,15 +21,16 @@ import {ImageFilterPipe} from './shared/filter.pipe'
     NavbarComponent,
     GalleryComponent,
     ImageFilterPipe,
-    ImageDetailComponent   
-
+    ImageDetailComponent
   ],
+
   imports: [
     BrowserModule,
     HttpModule,
-    FormsModule,    
+    FormsModule,
+    RouterModule.forRoot(appRoutes)    
   ],
-  
+
   providers: [ImageService, ImageFilterPipe],
   bootstrap: [AppComponent]
 })

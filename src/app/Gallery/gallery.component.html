@@ -7,7 +7,9 @@
 
     <ul id= "thumbnailsList">
         <li *ngFor="let image of (visibleImages | imageFilter:filterBy)">
-            <img src="{{image.url}}" class="tn" width="200" height="160">
+            <a [routerLink]="['/images', image.id]">
+            <img src="{{image.url}}" class="tn" width="200" height="200">
+            </a>
         </li>
     </ul>
 </div>

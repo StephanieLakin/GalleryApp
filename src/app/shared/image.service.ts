@@ -13,7 +13,7 @@ export class ImageService{
 }
 
 const IMAGES =[ 
-   { "id": 1, "category": "drawings", "Do you like my owl?": "Prisma Color", "url":"assets/img/wiseguy_01.jpg"},
+   { "id": 1, "category": "drawings", "caption":"Wise Guy", "url":"assets/img/wiseguy_01.jpg"},
    { "id": 2, "category": "drawings", "caption": "Sea Lion", "url":"assets/img/sealion_02.jpg"},
    { "id": 3, "category": "drawings", "caption": "Renaissance", "url":"assets/img/Renaissance_03.jpg"},
    { "id": 4, "category": "drawings", "caption": "Bedouin", "url":"assets/img/Niqabi_04.jpg"},
