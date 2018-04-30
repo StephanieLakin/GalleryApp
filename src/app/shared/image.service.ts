@@ -31,7 +31,7 @@ const IMAGES =[
    { "id": 16, "category": "portraits", "caption": "George, Incomplete","url": "assets/img/WorkInProgress_16.jpg"},
    { "id": 17, "category": "portraits", "caption": "Self Portrait 1988","url": "assets/img/SelfPortrait1988_17.jpg"},
    { "id": 18, "category": "paintings", "caption": "Fantasy", "url":"assets/img/Creature_18.jpg"},
-   { "id": 19, "category": "portraits", "Wise Guy": "Self Portrait 2018r","url":"assets/img/SelfPortrait2018_19.jpg"},
+   { "id": 19, "category": "portraits", "caption": "Self Portrait","url":"assets/img/SelfPortrait2018_19.jpg"},
    { "id": 20, "category": "portraits", "caption": "KMR, Incomplete","url":"assets/img/kmr_20.jpg"}
 ]
 
