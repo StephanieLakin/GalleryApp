@@ -1,7 +1,9 @@
 <div class="row">
     <div class="col-md-12">
-        <div [ngStyle]="{'background-image':'url('+ image.url +')'}" class="img-container paper">
+        <div class="img-container paper">
+            <img src="{{image.url}}"  width="100%">
         </div>
+        
     </div>
 </div>
     <div class="row">
@@ -11,3 +13,19 @@
             </span>
         </div>
     </div>
+
+<!--
+    <div class="row">
+        <div class="col-md-12">
+            <div [ngStyle]="{'image':'url('+ image.url +')'}" class="img-container paper">
+            </div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-md-12 caption-row">
+                <span id = "caption">
+                    {{image.caption}}
+                </span>
+            </div>
+        </div>
+    -->
