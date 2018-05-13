@@ -1,7 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #efefef;
+    background-color: #333 !important;
+    background-image: url("./assets/img/mamafade.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: contain;
+    background-attachment: fixed;
 }
 
 .main-content {
@@ -9,5 +15,8 @@ body {
     padding-top: 60px;
     color:#333;
     margin:0 auto;
+    float: left;
+    /*position: absolute;
+    right: 250px;*/
 }
 

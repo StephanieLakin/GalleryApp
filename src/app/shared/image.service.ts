@@ -28,10 +28,10 @@ const IMAGES =[
    { "id": 13, "category": "drawings", "caption": "Life Drawing", "url":"assets/img/LifeSketch1_13.jpg"},
    { "id": 14, "category": "drawings", "caption": "Life Drawing", "url":"assets/img/LifeSketch_14.jpg"},
    { "id": 15, "category": "drawings", "caption": "Life Drawing", "url":"assets/img/LifeSketch3_15.jpg"},
-   { "id": 16, "category": "portraits", "caption": "George, Incomplete","url": "assets/img/WorkInProgress_16.jpg"},
+   { "id": 16, "category": "portraits", "caption": "George","url": "assets/img/WorkInProgress_16.jpg"},
    { "id": 17, "category": "portraits", "caption": "Self Portrait 1988","url": "assets/img/SelfPortrait1988_17.jpg"},
    { "id": 18, "category": "paintings", "caption": "Fantasy", "url":"assets/img/Creature_18.jpg"},
    { "id": 19, "category": "portraits", "caption": "Self Portrait","url":"assets/img/SelfPortrait2018_19.jpg"},
-   { "id": 20, "category": "portraits", "caption": "KMR, Incomplete","url":"assets/img/kmr_20.jpg"}
+   { "id": 20, "category": "portraits", "caption": "KMR","url":"assets/img/kmr_20.jpg"}
 ]
 
