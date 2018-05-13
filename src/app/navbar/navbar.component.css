@@ -31,3 +31,25 @@ ul.nav a hover {
     text-shadow: 2px 2px 2px black;
     font-size: 3.5em;
 }
+
+#inquiry {
+    color:goldenrod;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Lato', sans-serif;
+    font-size: .75em;
+    float: right;
+    clear: all;
+    
+    text-decoration:none;
+
+}
+#inquiry :active {
+    color:white;
+}
+
+#inquiry :link {
+    color:goldenrod;
+}
+#inquiry :focus {
+    color:black;
+}

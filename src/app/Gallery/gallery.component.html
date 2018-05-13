@@ -1,14 +1,14 @@
 <h2>{{title}}</h2>
 <div class="row">
-    <button class="btn btn-lg" [class.active]= "filterBy==='all'" (click)="filterBy='all'" id="first">All</button>
-    <button class="btn btn-lg" [class.active]= "filterBy==='portraits'" (click)="filterBy='portraits'">Portraits</button>
-    <button class="btn btn-lg" [class.active]= "filterBy==='Drawings'" (click)="filterBy='drawings'">Drawings</button>
-    <button class="btn btn-lg" [class.active]= "filterBy==='Paintings'" (click)="filterBy='paintings'" id="last">Paintings</button>
+    <button class="btn btn-lg" [class.active]="filterBy==='all'" (click)="filterBy='all'" id="first">All</button>
+    <button class="btn btn-lg" [class.active]="filterBy==='portraits'" (click)="filterBy='portraits'">Portraits</button>
+    <button class="btn btn-lg" [class.active]="filterBy==='Drawings'" (click)="filterBy='drawings'">Drawings</button>
+    <button class="btn btn-lg" [class.active]="filterBy==='Paintings'" (click)="filterBy='paintings'" id="last">Paintings</button>
     <div class="gallerybox">
-        <ul id= "thumbnailsList">
+        <ul id="thumbnailsList">
             <li *ngFor="let image of (visibleImages | imageFilter:filterBy)">
                 <a [routerLink]="['/images', image.id]">
-                <img src="{{image.url}}" class="tn" width="auto" height="250">
+                    <img src="{{image.url}}" class="tn" width="auto" height="250">
                 </a>
             </li>
         </ul>
