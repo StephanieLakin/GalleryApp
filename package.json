@@ -1,6 +1,9 @@
 {
   "name": "gallery-app",
   "version": "0.0.0",
+  "engines":{
+    "node": "9.5.0"    
+},
   "license": "MIT",
   "scripts": {
     "ng": "ng",
