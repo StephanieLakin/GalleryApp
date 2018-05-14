@@ -4,6 +4,10 @@ import { ActivatedRoute } from '@angular/router'
 
 
 
+
+
+
+
 @Component({
     selector: 'image-detail',
     templateUrl: './image-detail.component.html',
@@ -20,8 +24,6 @@ export class ImageDetailComponent implements OnInit {
     ngOnInit() {
         this.image = this.imageService.getImage(
             +this.route.snapshot.params['id']
-
         )
     }
-
 }
