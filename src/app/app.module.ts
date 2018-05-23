@@ -1,6 +1,6 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-import {AlertModule} from 'ng2-bootstrap';
+//import {AlertModule} from 'ng2-bootstrap';
 import {HttpModule} from '@angular/http';
 import {FormsModule} from '@angular/forms';
 import {ImageService } from '../app/shared/image.service';
