@@ -1,0 +1,2 @@
+C:\Git\Angular4\gallery-app\obj\Debug\GalleryApp.njsprojResolveAssemblyReference.cache
+C:\Git\Angular4\gallery-app\obj\Debug\GalleryApp.njsproj.CoreCompileInputs.cache
