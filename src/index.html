@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <title>Stephanie's Gallery</title>
-  <base href="/">
+  <base href="/dist">
   <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
@@ -21,5 +21,17 @@
       </div>
     </div>
 </body>
-
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDfa988jtzUKze4oK8kF7wL1J_5RFfjPMc",
+    authDomain: "gallery1-21dc3.firebaseapp.com",
+    databaseURL: "https://gallery1-21dc3.firebaseio.com",
+    projectId: "gallery1-21dc3",
+    storageBucket: "gallery1-21dc3.appspot.com",
+    messagingSenderId: "93221863771"
+  };
+  firebase.initializeApp(config);
+</script>
 </html>

@@ -10,6 +10,6 @@ app.listen(process.env.PORT || 8080);
 
 app.get('/*', function(req, res) {
     res.sendfile(path.join(__dirname + '/dist/index.html'));
-})
+});
 
-console.log('console listening!');
+console.log('console listening!');01
