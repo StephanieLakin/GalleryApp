@@ -1,8 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #333 !important;
-    background-image: url("./assets/img/mamafade.png");
+    background-color: #333 !important;   
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: top;
@@ -20,3 +19,8 @@ body {
     right: 250px;*/
 }
 
+@media all and (min-width:1200px){
+    body {
+        background-image: url("./assets/img/mamafade.png")!important;       
+      }
+}

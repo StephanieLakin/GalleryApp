@@ -1,8 +1,18 @@
 ul {
     padding: 0; 
     width: 100%;
+    height:auto;
     margin: inline;
 }
+
+ul #thumbnailsList {
+    
+        padding: 0; 
+        width: 100%;
+        height:auto;
+        margin: inline;
+}
+
 
 li {
     display: inline;
@@ -17,7 +27,7 @@ a{
     border:none;
     box-shadow: dimgray 1px 1px 4px 1px;
     border-radius: 5px !important;
-    transition: 3s ease-in-out;
+    transition: 3s ease-in-out !important;
 }
 
 .tn:focus {
@@ -33,6 +43,8 @@ a{
     color: #fff;
     box-shadow:black 1px 2px 8px 1px;
     transition: 0.5s ease-in-out;
+    font-size: 1.5vw;
+    font-family: 'Lato', sans-serif;
 }
  .btn:active {
     
@@ -59,4 +71,11 @@ a{
     background-color: black;
     text-align: center;
     box-shadow:#555 1px 2px 8px 1px;
+}
+#ty {
+    color:black;
+    text-shadow: 0 1px 0 goldenrod;
+    font-family: 'Lato', sans-serif; 
+    font-size: 1.5vw;
+    padding-top: .75vw;
 }

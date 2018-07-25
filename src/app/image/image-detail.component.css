@@ -3,7 +3,7 @@
     box-shadow:black 1px 2px 8px 1px;
     padding: 15px;
     min-height: auto;
-    min-width: 660px;
+    min-width: auto;
     background-position: center;
     background-repeat: no-repeat;
     align-content: center;    
@@ -11,7 +11,7 @@
 
 
 #caption{
-  font-size: 1.5em;
+  font-size: 2vw;
   font-family: "Montserrat", sans-serif;
   padding: 18px;
   color: #222;
@@ -27,4 +27,10 @@
 .img-responsive {
   
   border: 2px solid black;
+  max-width:100%;
+  height:auto;
+}
+.responsive {
+  max-width:100%;
+  height:auto;
 }

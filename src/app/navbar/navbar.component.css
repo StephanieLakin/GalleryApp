@@ -3,6 +3,7 @@ nav { font-family: 'Lato', sans-serif;
       box-shadow:black 1px 2px 8px 1px;
       width: 100%;
       transition: 0.5s ease-in-out;
+      display:inline-block;
 }
 
 .logo {
@@ -24,32 +25,33 @@ ul.nav a hover {
 #gallery {
     color:#fff;
     text-shadow: 2px 2px 2px black;
-    font-size: 2.5em;
+    font-size: 3vw;
 }
 #mama {
     color:goldenrod;
     text-shadow: 2px 2px 2px black;
-    font-size: 3.5em;
+    font-size: 5vw;
 }
 
 #inquiry {
     color:goldenrod;
-    text-shadow: 2px 2px 2px black;
-    font-family: 'Lato', sans-serif;
-    font-size: .75em;
-    float: right;
-    clear: all;
-    
+    text-shadow: 2px 2px 2px black;    
+    font-size: 1.75vw;
+    float:left;
+    width:50%;
     text-decoration:none;
+    position: absolute;;
+    padding-top: 3vw;
+    padding-right: 5vw;   
 
 }
-#inquiry :active {
-    color:white;
+ #inquiry :active {
+    color:white !important;
 }
 
-#inquiry :link {
-    color:goldenrod;
+ #inquiry :link {
+    color:goldenrod !important;
 }
-#inquiry :focus {
-    color:black;
+  #inquiry :focus {
+    color:black !important;
 }

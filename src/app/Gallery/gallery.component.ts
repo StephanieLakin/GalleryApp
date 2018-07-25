@@ -8,7 +8,7 @@ import { ImageService } from '../shared/image.service';
     styleUrls: ['./gallery.component.css']
 })
 export class GalleryComponent implements OnChanges {
-    title = 'Recent Work';
+    title = 'Thank You for Visiting!';
     @Input() filterBy?: string = 'all'
     visibleImages: any[] = [];
 

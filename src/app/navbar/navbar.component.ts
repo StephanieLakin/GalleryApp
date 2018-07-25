@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
     title1 = 'Art by Stephanie J.Lakin';
-    title2 = 'Gallery'   
+    title2 = 'View Gallery'   
     title3 = 'Inquiries'
 }  
+
